@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src='text/fuc.js'></script>
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>知乎 - 与世界分享你的知识、经验和见解</title>
+    <link rel="stylesheet" type="text/css" href="text/login.css">
+</head>
+<body>
+	<center>
+		<div class="index-main-class">
+			<div class="index-header">
+				<h1 class="logo"></h1>
+				<h2 class="subtitle">与世界分享你的知识、经验和见解</h2>
+			</div>
+			<div class="desk-front sign-flow-simple sign-flow">
+				<div class="index-tab-navs">
+					<div class="navs-slider" data-active-index = "0">
+						<a href="#signup" onclick="changeType(0);" id="register" class="active">注册</a>
+						<a href="#signin" id="login" onclick="changeType(1);">登录</a>
+						<span class="navs-slider-bar" id="slider" ></span>
+					</div>
+				</div>
+				<div class="view view-signup" style="display: block;" id="signup">
+					<form class="register-box" autocomplete="off">
+						<div class="group-inputs">
+							<div class="input-wrapper">
+								<input required type="text" name="fullname"	placeholder="姓名" >
+							</div>
+							<div class="input-wrapper">
+								<input required type="text" name="phone_num"  placeholder="手机号（仅支持中国大陆）" class="input-wrapper">
+							</div>
+							<div class="input-wrapper">
+								<input required type="password" name="password"  placeholder="密码（不少于 6 位）" class="input-wrapper">
+							</div>
+							<div class="input-wrapper captcha-module" style="display: block;">
+								<input required name="captcha"  placeholder="验证码">
+								<img src="http://www.zhihu.com/captcha.gif?r=1461210889866" width="120" height="30" class="captcha">
+							</div>
+						</div>
+						<div class="button-wrapper">
+							<button class="sign-button" type="submit">注册知乎</button>
+						</div>
+					</form>
+				</div>
+				<div class="view view-signin" style="display: none;" id="signin">
+					<form novalidate>
+						<div class="group-inputs">
+							<div class="input-wrapper">
+								<input required type="text" name="fullname"	placeholder="手机号或邮箱" >
+							</div>
+							<div class="input-wrapper">
+								<input required type="password" name="password"  placeholder="密码" class="input-wrapper">
+							</div>
+							<div class="input-wrapper captcha-module" style="display: block;">
+								<input required name="captcha"  placeholder="验证码">
+								<img src="http://www.zhihu.com/captcha.gif?r=1461223019276" width="120" height="30" class="captcha">
+							</div>
+						</div>
+						<div class="button-wrapper">
+							<button class="sign-button" type="submit">登录</button>
+						</div>
+						<div class="signin-misc-wrapper clearfix">
+							<label class="remember-me">
+								<input type="checkbox" name="remember_me" checked value="true">记住我</input>
+							</label>
+							<a class="unable-login" href="#">无法登录？</a>
+						</div>
+						<!-- 微博登录 -->
+						<div class="weibo-signup-wrapper">
+							<span class="name js-toogle-sns-buttons">社交账号登录</span>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="qrcode-app-download">
+				<a href="http://www.zhihu.com/app/?ct=weidengluyemian&utm_source=weidengluyemian&utm_medium=pc_download_app_button&utm_campaign=downloadlink" class="app-link">
+					<div id="show">
+						<div id="show-text">
+							<i class="sprite-index-icon-qrcode" id="qricon"></i>
+							<span class="text" id="downloadZhiHu">下载知乎 App</span>
+						</div>
+						<span class="hovercard" id="hovercard">
+							<span class="intro">扫一扫二维码下载</span>
+							<span class="image" id="qrIconBig"></span>
+					</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+			<span>? 2016 知乎</span>
+			<span class="dot">・</span>
+			<a target="_blank" href="/roundtable">知乎圆桌</a>
+			<span class="dot">・</span>
+			<a target="_blank" href="/explore" data-za-c="explore" data-za-a="visit_explore" data-za-l="home_bottom_explore">发现</a>
+			<span class="dot">・</span>
+			<a target="_blank" href="/app">移动应用</a>
+			<span class="dot">・</span>
+			<a target="_blank" href="/careers">来知乎工作</a>
+			<a href="http://www.miibeian.gov.cn/" target="_blank">京 ICP 备 13052560 号</a>
+			<span>・</span>
+			<span>京公网安备 11010802010035 号</span>
+		</center>
+		
+	</body>
+	</html>

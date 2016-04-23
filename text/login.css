@@ -1,0 +1,56 @@
+body{color: #555; font-size: 15px;line-height: 1.7;background: #f7fafc;height: 100%;margin: 0px;padding: 0px;display: block;font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;-webkit-font-smoothing:subpixel-antialiased;}
+
+a{text-decoration: none;}
+input{margin: 0;font-family: inherit;font-size: 100%;}
+.index-main-class{white-space: normal; height: 510px;display: inline-block; width:300px;padding: 40px 0;margin-bottom: auto;}
+.index-header{;width: 100%;height: 122px;text-align: center;}
+.logo{height: 74px;width: 160px;background-color: #F94747;margin:0 70px;background: url(../images/logo.6837e927.png) no-repeat;background-size: contain;}
+.subtitle{display: inline-block; margin: 30px 0;width: 300px; font-size: 18px;font-weight: 400;line-height: 1;}
+.desk-front{height: 260px;width: 300px;margin-top: 30px;font-size: 18px;}
+.sign-flow{text-align: center;}
+.sign-flow a{color: inherit;}
+.index-tab-navs{width: 100%;margin-bottom: 10px;}
+.navs-slider{display: inline-block;position: relative;}
+.index-tab-navs a.active{opacity: 1;color: #3291d9;}
+.index-tab-navs a{float: left;width: 4em;line-height: 35px;transition: opacity .15s,color .15s;text-decoration:none;}
+.index-tab-navs .navs-slider .navs-slider-bar{position: absolute;left: 0em;bottom: 0;margin:0 .8em;width: 2.4em;height: 2px;background: #5f98c4;}
+/*注册/登录box*/
+.group-inputs{padding: 1px 0;border:1px solid #d5d5d5;border-radius: 50%;}
+.input-wrapper{position: relative;margin: 0;overflow: hidden;}
+.sign-flow .view{float: none;width: 100%;text-align: left; font-size: 14px; margin: 38px ,0;}
+.sign-flow .view .input-wrapper input{padding: 1em .8em;width: 100%;box-sizing: border-box;font-size: 14px}
+.sign-flow .view .input-wrapper input:focus{border:0;border-radius: 0;box-shadow: none;background: #fff;}
+.capch-container{margin: 0;text-align: right;line-height: 40px;font-size: 13px;}
+.captcha{position: absolute;top: 50% ;right: .2em;margin-top: -19px;width: 100px;height: 38px}
+.button-wrapper{margin-top: 18px;text-align: left;font-size: 14px;}
+.sign-flow .sign-button{background-color: #5bb8ff;box-shadow: none;border:0; border-radius: 3px;line-height: 41px;color: #fff;}
+.sign-button{display: block;padding: 0;width: 100%;text-align: center;text-shadow: 0 1px 1px rgba(0,0,0,.2);outline: 0;cursor: pointer;font-size: 15px;}
+.signin-misc-wrapper{margin-top: 18px;}
+.clearfix{}
+label{cursor: default;}
+.signin-misc-wrapper .remember-me input{vertical-align: 1px;margin-right: 3px;}
+.unable-login{float: right;}
+.sign-flow .weibo-signup-wrapper{margin-top: 18px;}
+.sign-flow .weibo-signup-wrapper .name{vertical-align: middle;margin-right: 20px;color: #787878;cursor: pointer;}
+
+/*二维码*/
+.qrcode-app-download{position: absolute;top: 15px;right: 15px;}
+.app-link{display: block;width: 160px;height: 42px;line-height: 40px;color: #6b9cbd;text-align: center;border:1px solid #e8e8e8;border-radius: 3px;box-sizing: border-box;text-decoration: none;}
+.sprite-index-icon-qrcode{background-position: -22px -20px;width: 15px;height: 15px;}
+.sprite-index, [class*=sprite-index-]{background-image: url(../images/sprites.auto.ccb0e398.png);background-repeat: no-repeat;}
+[class*=sprite-index-icon-]{display: inline-block;vertical-align: middle;}
+.qrcode-app-download .app-link .text{margin: 2px;vertical-align: middle;}
+.hovercard{display: none;color: #555}
+.intro{display: block;font-size: 14px;}
+.qrcode-app-download .hovercard .image{background-image: url(../images/qrcode.png); display: inline-block;width:130px;height: 130px;background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+/*footer*/
+.footer a{color: #aebdc9}
+.footer span{color: #aebdc9}
+
+#show:hover .hovercard{
+	display: block;
+}
+#show:hover #show-text{
+	display: none;
+}
